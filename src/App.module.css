@@ -1,0 +1,15 @@
+.imageSmall {
+  max-height: 400px;
+  max-width: 400px;
+  object-fit: scale-down;
+}
+
+.imageBig {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  transition: all 5s;
+  transform-origin: top left;
+  max-height: 100%;
+  max-width: 100%;
+}
